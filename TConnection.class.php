@@ -18,11 +18,11 @@
     public static function open($name){
         //verifica se existe arquivo de configuração para este banco de dados
 
-        if(file_exists("app.config/{$name}.ini"))
+        if(file_exists("{$name}.ini"))
         {
             // le o INI e retorna um Array
             
-            $db = parse_ini_file("app.config/{$name}.ini");
+            $db = parse_ini_file("{$name}.ini");
         }
         else 
         {
