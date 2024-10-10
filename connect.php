@@ -54,7 +54,7 @@ spl_autoload_register(function ($classe) {
         print "ERRO!:".$e->getMessage()."<br>\n";
         die();
     }
-    try
+    /* try
     {
         // abre conexão com a base pg_livro 
         $conn = TConnection::open('pg_livro');
@@ -76,7 +76,7 @@ spl_autoload_register(function ($classe) {
         // exibe a mensagem de erro 
         print "ERRO!:".$e->getMessage()."<br>\n";
         die();
-    }
+    }*/
 ?>
 
 
